@@ -1,6 +1,5 @@
 body {
-max-width: 100%;
-margin: 5%;
+width: 100%;
 }
 
 .button1 {
@@ -35,13 +34,14 @@ margin-top: 50px;
 }
 .top {
   display: flex;
- margin-top: 5%;   
+  margin: 5% 0;   
 }
  .trouble{
   font-family: 'roboto mono';
   font-size: 20px;
-  width: 50%;
-  margin-left: 40%;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
  .header {
  border-radius:150px;  
@@ -82,11 +82,13 @@ width: 12%;
  font-size: 16px;
 }  
 .content-row{
-  margin-top: 2%;
+margin-top: 2%;
 }
 footer img{
 height: 300px;
 width: 100%;
+object-fit: none;
+object-position: left top;
 }
 footer{
 background-color: #ddb9a3;
